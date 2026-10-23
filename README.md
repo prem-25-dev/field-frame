@@ -1,3 +1,9 @@
 # Fieldframe
 
-Fieldframe is a responsive image-search interface designed to help people explore visual inspiration by topic; image fetching will be added in a later part. I chose a forest-green, warm-neutral palette to give the app a calm field-guide feel instead of the usual neon search aesthetic. The quick-pick topic chips suggest ways to begin exploring without making the page feel complicated. A custom empty state and sticky header make the first visit feel intentional while the results area waits for images.
+Fieldframe is a responsive image-search interface for exploring visual inspiration by topic. Its forest-green, warm-neutral palette keeps the experience closer to a calm field guide than a typical neon search product.
+
+Search with the form (or a quick-pick chip) to fetch up to 12 matching images from Wikimedia Commons. Results are rendered as safe DOM-created cards, and each image opens its Wikimedia Commons page in a new tab.
+
+## Run it
+
+Open `index.html` in a modern browser, then search for a topic such as `wildflowers` or `new york`.
